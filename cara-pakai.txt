@@ -1,0 +1,15 @@
+--termux/linux
+pkg update && pkg upgrade
+pkg install python3
+pip install requests colorama
+cd fls
+python main.py login
+python main.py
+
+--windows
+install python 3.x https://www.python.org/downloads/
+cara instalasi python windows 10 https://www.techcelup.com/cara-install-python-3-8-di-windows-10/
+pip install requests colorama
+python main.py login
+python main.py / klik main di folder
+ 
